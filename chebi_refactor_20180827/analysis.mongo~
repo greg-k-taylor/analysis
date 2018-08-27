@@ -1,0 +1,6 @@
+
+db.chebi_refactor.aggregate(
+{
+	$count: "intez_database_links"
+}
+)

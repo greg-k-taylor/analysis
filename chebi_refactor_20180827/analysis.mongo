@@ -1,0 +1,25 @@
+
+db.chebi_refactor.find( { "chebi.intenz_database_links": {$exists: 1} }).count()
+4007
+db.chebi_refactor.find( { "chebi.intenz_database_links._truncated": {$exists: 1} }).count()
+2
+
+db.chebi_refactor.find( { "chebi.reactome_database_links": {$exists: 1} }).count()
+1715
+db.chebi_refactor.find( { "chebi.reactome_database_links._truncated": {$exists: 1} }).count()
+3
+
+db.chebi_refactor.find( { "chebi.rhea_database_links": {$exists: 1} }).count()
+8905
+db.chebi_refactor.find( { "chebi.rhea_database_links._truncated": {$exists: 1} }).count()
+6
+
+db.chebi_refactor.find( { "chebi.sabio_rk_database_links": {$exists: 1} }).count()
+3527
+db.chebi_refactor.find( { "chebi.sabio_rk_database_links._truncated": {$exists: 1} }).count()
+2
+
+db.chebi_refactor.find( { "chebi.uniprot_database_links": {$exists: 1} }).count()
+9134
+db.chebi_refactor.find( { "chebi.uniprot_database_links._truncated": {$exists: 1} }).count()
+646
