@@ -1,0 +1,15 @@
+
+db.pharmgkb_rf.find({"pharmgkb.xref.ndc": {$exists: 1}}).count()
+953
+db.pharmgkb_rf.find({"pharmgkb.xref.dpd": {$exists: 1}}).count()
+0
+db.pharmgkb_rf.find({"pharmgkb.xref.Drugs Product Database (DPD)": {$exists: 1}}).count()
+0
+db.pharmgkb_rf.find({"pharmgkb.xref.dailymed": {$exists: 1}}).count()
+865
+db.pharmgkb_rf.find({"pharmgkb.xref.wikipedia": {$exists: 1}}).count()
+1350
+Note:  all but 1 field are wikipedia links, 1 is not - it is a dailymed link
+
+db.pharmgkb_rf.find({"pharmgkb.xref.chebi": {$exists: 1}}).count()
+974

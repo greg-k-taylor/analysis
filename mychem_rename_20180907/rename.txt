@@ -1,0 +1,28 @@
+Pharmagkb
+​
+pharmgkb.cross-references --> pharmgkb.xref
+​
+pharmgkb.cross-references.chebi --> add CHEBI: prefix
+​
+national_drug_code_directory --> ndc
+​
+drugs_product_database_(dpd) -->dpd
+​
+fda_drug_label_at_dailymed --> dailmed
+​
+web_resource -- > wikipedia
+​
+external_vocabulary -->  "N07XX02(riluzole)" --> "N07XX02"
+​
++++++++++++++++++++++++++++++++=
+CHEBI
+​
+"pubchem_database_links": [
+"CID: 5070",
+"SID: 223440865"
+],
+​
+pubchem:
+   cid: 5070
+   sid: 223440865
+
