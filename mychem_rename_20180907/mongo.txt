@@ -8,7 +8,7 @@ db.pharmgkb_rf.find({"pharmgkb.xref.dpd": {$exists: 1}}).count()
 953
 db.pharmgkb_rf.find({"pharmgkb.xref.dailymed.setid": {$exists: 1}}).count()
 865
-db.pharmgkb_rf.find({"pharmgkb.xref.wikipedia": {$exists: 1}}).count()
+db.pharmgkb_rf.find({"pharmgkb.xref.wikipedia.url_stub": {$exists: 1}}).count()
 1348
 Note:  all but 1 field are wikipedia links, 1 is not - it is a dailymed link
 
@@ -16,6 +16,18 @@ db.pharmgkb_rf.find({"pharmgkb.xref.chebi": {$exists: 1}}).count()
 974
 Note:  chebi identifiers were manually verified to have the 'CHEBI:ID' format
 
+db.pharmgkb_rf.find({"pharmgkb.external_vocabulary": {$exists: 1}}).count()
+2979
+
+# Find a document with all example fields
+db.pharmgkb_rf.aggregate([
+{$match: {"pharmgkb.xref.ndc": {$exists: 1}}},
+{$match: {"pharmgkb.xref.dpd": {$exists: 1}}},
+{$match: {"pharmgkb.xref.dailymed.setid": {$exists: 1}}},
+{$match: {"pharmgkb.xref.wikipedia.url_stub": {$exists: 1}}},
+{$match: {"pharmgkb.xref.chebi": {$exists: 1}}},
+{$match: {"pharmgkb.external_vocabulary": {$exists: 1}}},
+])
 
 
 ### Chebi #####################

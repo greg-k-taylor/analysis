@@ -1,0 +1,67 @@
+{
+    "_id": "XSDQTOBWRPYKKA-UHFFFAOYSA-N",
+    "pharmgkb": {
+        "external_vocabulary": {
+            "atc": "C03DB01",
+            "ndfrt": "N0000147699",
+            "umls": "C0002502",
+            "rxnorm": "644"
+        },
+        "dosing_guideline": "No",
+        "xref": {
+            "chemspider": "15403",
+            "het": "AMR",
+            "wikipedia": {
+                "url_stub": "Amiloride"
+            },
+            "chebi": "CHEBI:2639",
+            "bindingdb": "16173",
+            "dailymed": {
+                "setid": "16fdc381-0a5b-419e-afaa-9cb2e61bd32e"
+            },
+            "chemical_abstracts_service": "17440-83-4",
+            "therapeutic_targets_database": "DAP000187",
+            "pubchem_compound": "16231",
+            "pdb": "AMR",
+            "dpd": "02249510",
+            "drugbank": "DB00594",
+            "ndc": "64980-151-01",
+            "pubchem_substance": "9039",
+            "iuphar_ligand": "2421",
+            "kegg_compound": "C06821"
+        },
+        "brand_mixtures": [
+            "Alti-Amiloride HCTZ (Amiloride Hcl + Hydrochlorothiazide)",
+            "Ami-Hydro Tab (Amiloride Hcl + Hydrochlorothiazide)",
+            "Apo-Amilzide Tab (Amiloride Hcl + Hydrochlorothiazide)",
+            "Gen-Amilazide (Amiloride Hcl + Hydrochlorothiazide)",
+            "Moduret (Amiloride Hcl + Hydrochlorothiazide)",
+            "Novamilor Tab USP (Amiloride Hcl + Hydrochlorothiazide)",
+            "Nu-Amilzide 5/50 mg Tab (Amiloride Hcl + Hydrochlorothiazide)",
+            "Riva-Amilzide 5/50 mg (Amiloride Hcl + Hydrochlorothiazide)"
+        ],
+        "type": "Drug",
+        "pharmgkb_accession_id": "PA448368",
+        "trade_names": [
+            "Amipramidin",
+            "Amipramizid",
+            "Amipramizide",
+            "Amiprazidine",
+            "Guanamprazin",
+            "Guanamprazine",
+            "Midamor"
+        ],
+        "name": "amiloride",
+        "inchi": "InChI=1S/C6H8ClN7O/c7-2-4(9)13-3(8)1(12-2)5(15)14-6(10)11/h(H4,8,9,13)(H4,10,11,14,15)",
+        "generic_names": [
+            "AMR",
+            "Amilorida [INN-Spanish]",
+            "Amiloride HCL",
+            "Amiloride hydrochloride",
+            "Amiloride hydrochloride hydrate",
+            "Amiloridum [INN-Latin]",
+            "Amyloride"
+        ],
+        "smiles": "C1(=C(N=C(C(=N1)Cl)N)N)C(=O)N=C(N)N"
+    }
+}
