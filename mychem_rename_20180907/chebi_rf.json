@@ -1,0 +1,35 @@
+{
+    "_id": "RNLQIBCLLYYYFJ-UHFFFAOYSA-N",
+    "chebi": {
+        "definition": "A 3,4'-bipyridine subsituted at positions 5 and 6 by an amino group and a keto function respectively. A pyridine phosphodiesterase 3 inhibitor, it is a drug that may improve the prognosis in patients with congestive heart failure.",
+        "star": 3,
+        "charge": 0,
+        "formulae": "C10H9N3O",
+        "chebi_id": "CHEBI:2686",
+        "chebi_name": "amrinone",
+        "pubchem": {
+            "sid": 332875312,
+            "cid": 3698
+        },
+        "pubmed_citation_links": [
+            "15064331",
+            "15892406",
+            "16154150",
+            "18468627",
+            "23908328",
+            "28166217"
+        ],
+        "lincs_database_links": "LSM-6600",
+        "kegg_drug_database_links": "D00231",
+        "iupac_names": "5-amino[3,4'-bipyridin]-6(1H)-one",
+        "wikipedia_database_links": "Amrinone",
+        "cas_registry_numbers": "60719-84-8",
+        "inn": "amrinone",
+        "inchi": "InChI=1S/C10H9N3O/c11-9-5-8(6-13-10(9)14)7-1-3-12-4-2-7/h1-6H,11H2,(H,13,14)",
+        "smiles": "C1=CN=CC=C1C2=CNC(=O)C(=C2)N",
+        "secondary_chebi_id": "CHEBI:95269",
+        "inchikey": "RNLQIBCLLYYYFJ-UHFFFAOYSA-N",
+        "last_modified": "13 Jun 2017",
+        "mass": 187.198
+    }
+}
