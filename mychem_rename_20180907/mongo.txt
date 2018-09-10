@@ -1,15 +1,29 @@
+### Pharmgkb #################
+db.pharmgkb_rf.count()
+3254
 
 db.pharmgkb_rf.find({"pharmgkb.xref.ndc": {$exists: 1}}).count()
 953
 db.pharmgkb_rf.find({"pharmgkb.xref.dpd": {$exists: 1}}).count()
-0
-db.pharmgkb_rf.find({"pharmgkb.xref.Drugs Product Database (DPD)": {$exists: 1}}).count()
-0
-db.pharmgkb_rf.find({"pharmgkb.xref.dailymed": {$exists: 1}}).count()
+953
+db.pharmgkb_rf.find({"pharmgkb.xref.dailymed.setid": {$exists: 1}}).count()
 865
 db.pharmgkb_rf.find({"pharmgkb.xref.wikipedia": {$exists: 1}}).count()
-1350
+1348
 Note:  all but 1 field are wikipedia links, 1 is not - it is a dailymed link
 
 db.pharmgkb_rf.find({"pharmgkb.xref.chebi": {$exists: 1}}).count()
 974
+Note:  chebi identifiers were manually verified to have the 'CHEBI:ID' format
+
+
+
+### Chebi #####################
+db.chebi_rf.count()
+98227
+
+db.chebi_rf.find({"chebi.pubchem.cid": {$exists: 1}}).count()
+86406
+
+db.chebi_rf.find({"chebi.pubchem.sid": {$exists: 1}}).count()
+97685
